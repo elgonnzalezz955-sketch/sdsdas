@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "donutmarket",
+  "version": "${version}",
+  "name": "DonutSMP Market Tracker",
+  "description": "A stock-market style dashboard for the DonutSMP economy: live prices, candlestick and line charts, watchlist and saved price history.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["com.donutmarket.DonutMarketClient"] },
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
